@@ -416,8 +416,6 @@ abstract class Action
 
         $visitAction = array_merge($visitAction, $this->customFields);
 
-        $visitAction = array_merge($visitAction, $this->getExtraVisitActionFields());
-
         $this->idLinkVisitAction = $this->getModel()->createAction($visitAction);
 
         $visitAction['idlink_va'] = $this->idLinkVisitAction;
