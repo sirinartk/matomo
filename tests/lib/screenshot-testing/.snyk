@@ -1,0 +1,12 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - chai-image-assert > lodash:
+        patched: '2020-04-30T22:31:12.035Z'
+    - request-promise > request-promise-core > lodash:
+        patched: '2020-04-30T22:31:12.035Z'
+    - chai-image-assert > react-dev-utils > inquirer > lodash:
+        patched: '2020-04-30T22:31:12.035Z'
