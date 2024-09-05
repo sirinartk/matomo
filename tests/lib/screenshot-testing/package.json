@@ -5,7 +5,7 @@
   "author": "Matomo Team",
   "license": "GPL-3.0+",
   "dependencies": {
-    "chai": "^4.1.2",
+    "chai": "^4.3.10",
     "chai-files": "^1.4.0",
     "chai-image-assert": "^1.2.0",
     "fs-extra": "^7.0.1",
